@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Evaluación final</title>
+    <link rel="stylesheet" href="./bulma.min.css">
+    <script src="./events.js"></script>
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Evaluación. Lista de actividades
+      </h1>
+      <p class="subtitle">
+        Hacer una lista de actividades. Se muestra en una lista. Permite editar la actividad y eliminarla. Se debe completar la actividad.
+      </p>
+      <form id="createForm" name="createForm">
+        <div class="field">
+          <div class="control">
+            <input class="input is-small" type="text" placeholder="Describa la actividad" name="task">
+          </div>
+        </div>
+        <button class="button is-link is-outlined is-small">Crear actividad</button>
+      </form>
+      <table id="listTask" class="table is-striped" style="margin: 30px;">
+        <thead>
+          <tr>
+            <th>Lista</th>
+            <th>Acción</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <script src="./base.js"></script>
+  <script src="./script.js"></script>
+  </body>
+</html>
